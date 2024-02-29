@@ -37,7 +37,7 @@ export const App: React.FC<{}> = () => {
         password
       } = registerData;
 
-      const response = await axios.post("http://localhost:3000/user", {
+      const response = await axios.post("https://api-1-c2.onrender.com/user", {
         userName,
         password
       });
